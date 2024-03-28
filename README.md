@@ -17,14 +17,19 @@ The system employs a **PostgreSQL database** to maintain records of user activit
 **Functionality**
 
 The system encompasses seven distinct APIs, each serving a specific purpose:
+1.**Health Check API**: Provides a quick check to ensure the application is up and running.
 
-**Health Check API**: Provides a quick check to ensure the application is up and running.
-**Create User API**: Enables the creation of users with specific roles, allowing them to perform various tasks within the library.
-**Books Available API**: Displays the number of copies available for borrowing and, if unavailable, provides information on when the book will be returned.
-**Student Info API**: Allows students to view their borrowed books, including deadlines for return and borrowing history.
-**Renew API**: Enables students to renew books that have not yet been renewed.
-**Librarian View API**: Provides librarians with insights into which student has borrowed which book, return deadlines, borrowing history, etc.
-**Student Record API**: Allows librarians to mark when a student borrows or returns a book.
+2.**Create User API**: Enables the creation of users with specific roles, allowing them to perform various tasks within the library.
+
+3.**Books Available API**: Displays the number of copies available for borrowing and, if unavailable, provides information on when the book will be returned.
+
+4.**Student Info API**: Allows students to view their borrowed books, including deadlines for return and borrowing history.
+
+5.**Renew API**: Enables students to renew books that have not yet been renewed.
+
+6.**Librarian View API**: Provides librarians with insights into which student has borrowed which book, return deadlines, borrowing history, etc.
+
+7.**Student Record API**: Allows librarians to mark when a student borrows or returns a book.
 
 Data Management
 
