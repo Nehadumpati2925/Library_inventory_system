@@ -55,7 +55,7 @@ class Roles(models.Model):
 #     def has_module_perms(self, app_label):
 #         return True
     
-class UserProfile(models.Model):
+class UserProfile(models.Model): #adding role field with one to one mapping for user table
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     roles_id = models.ForeignKey(Roles, on_delete=models.CASCADE, null = True, blank=True)
     

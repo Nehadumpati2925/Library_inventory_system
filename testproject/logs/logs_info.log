@@ -17,3 +17,23 @@ INFO 2024-03-28 08:50:37,795 book_availability 5148 15684 Successfully fetched t
 INFO 2024-03-28 08:51:33,270 book_availability 5148 15684 Entered into available books GET method
 INFO 2024-03-28 08:51:33,272 book_availability 5148 15684 returned data from ORM query for books available method
 INFO 2024-03-28 08:51:33,465 book_availability 5148 15684 Successfully fetched the books data
+INFO 2024-03-28 09:49:23,350 create_users 27848 28424 Entered into user creation POST method
+INFO 2024-03-28 09:49:23,785 create_users 27848 28424 User Created Successfully for {'user_id': 4, 'email': 'testnew@gmail.com', 'username': 'testnew@gmail.com'}
+INFO 2024-03-28 10:12:38,807 create_users 28128 23240 Entered into user creation POST method
+INFO 2024-03-28 10:12:39,259 create_users 28128 23240 User Created Successfully for {'user_id': 5, 'email': 'testnew1@gmail.com', 'username': 'testnew1@gmail.com'}
+INFO 2024-03-28 10:12:52,042 student_info 28128 23240 Entered into Student information GET method
+INFO 2024-03-28 10:12:52,042 student_info 28128 23240 Successfully executed raw query for fetching the student records
+INFO 2024-03-28 10:12:52,051 student_info 28128 23240 Book information retrieved successfully!!
+INFO 2024-03-28 10:12:55,464 book_availability 28128 23240 Entered into available books GET method
+INFO 2024-03-28 10:12:55,480 book_availability 28128 23240 returned data from ORM query for books available method
+INFO 2024-03-28 10:12:55,682 book_availability 28128 23240 Successfully fetched the books data
+INFO 2024-03-28 10:13:04,675 student_record 28128 23240 Entered into Student Record update POST method
+INFO 2024-03-28 10:13:12,369 student_record 28128 23240 Entered into Student Record update POST method
+INFO 2024-03-28 10:13:27,799 renew_books 28128 23240 Entered into renew books POST method
+ERROR 2024-03-28 10:13:27,807 renew_books 28128 23240 Renewing book has failed 'NoneType' object has no attribute 'renewed'
+INFO 2024-03-28 10:13:38,696 librarian_view 28128 23240 Entered into librarian view GET method
+INFO 2024-03-28 10:13:38,701 librarian_view 28128 23240 Suuccessfully executed ORM query for student records
+INFO 2024-03-28 10:13:38,714 librarian_view 28128 23240 Books Infomation has been retrieved successfully
+INFO 2024-03-28 10:13:43,076 librarian_view 28128 23240 Entered into librarian view GET method
+INFO 2024-03-28 10:13:43,084 librarian_view 28128 23240 Suuccessfully executed ORM query for student records
+INFO 2024-03-28 10:13:43,095 librarian_view 28128 23240 Books Infomation has been retrieved successfully
