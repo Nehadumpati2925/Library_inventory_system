@@ -1,0 +1,19 @@
+INFO 2024-03-28 08:35:59,393 book_availability 12356 14232 Entered into available books API
+INFO 2024-03-28 08:42:46,046 book_availability 14756 25640 Entered into available books GET method
+INFO 2024-03-28 08:42:46,050 book_availability 14756 25640 returned data from ORM query for books available method
+INFO 2024-03-28 08:42:46,202 book_availability 14756 25640 Successfully fetched the books data
+INFO 2024-03-28 08:43:37,873 book_availability 5148 15684 Entered into available books GET method
+INFO 2024-03-28 08:43:37,880 book_availability 5148 15684 returned data from ORM query for books available method
+INFO 2024-03-28 08:43:38,027 book_availability 5148 15684 Successfully fetched the books data
+INFO 2024-03-28 08:48:00,299 book_availability 5148 15684 Entered into available books GET method
+INFO 2024-03-28 08:48:00,302 book_availability 5148 15684 returned data from ORM query for books available method
+INFO 2024-03-28 08:48:00,489 book_availability 5148 15684 Successfully fetched the books data
+INFO 2024-03-28 08:49:20,129 book_availability 5148 15684 Entered into available books GET method
+INFO 2024-03-28 08:49:20,130 book_availability 5148 15684 returned data from ORM query for books available method
+INFO 2024-03-28 08:49:20,272 book_availability 5148 15684 Successfully fetched the books data
+INFO 2024-03-28 08:50:37,635 book_availability 5148 15684 Entered into available books GET method
+INFO 2024-03-28 08:50:37,637 book_availability 5148 15684 returned data from ORM query for books available method
+INFO 2024-03-28 08:50:37,795 book_availability 5148 15684 Successfully fetched the books data
+INFO 2024-03-28 08:51:33,270 book_availability 5148 15684 Entered into available books GET method
+INFO 2024-03-28 08:51:33,272 book_availability 5148 15684 returned data from ORM query for books available method
+INFO 2024-03-28 08:51:33,465 book_availability 5148 15684 Successfully fetched the books data
