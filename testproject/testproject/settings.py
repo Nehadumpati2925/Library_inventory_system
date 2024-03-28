@@ -83,6 +83,7 @@ WSGI_APPLICATION = 'testproject.wsgi.application'
 #     }
 # }
 
+#Please change the db details as required, these are sample DB details
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -96,6 +97,8 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
+#centralized logging mechanism with console and logfile logs enabled
 path = os.getcwd()
 LOGGING = {
     'version': 1,
